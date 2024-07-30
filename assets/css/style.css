@@ -6,13 +6,14 @@
 
 /*=======accordian-1=============*/
 .sec-a-btn:not(.collapsed) {
-  color: #f6e300 !important;
-  background: black !important;
+  color: #171717 !important;
+}
+.sec-a-btn::after {
+  background-image: url(https://cdn.icon-icons.com/icons2/834/PNG/512/plus_icon-icons.com_66718.png) !important;
 }
 .sec-a-btn:not(.collapsed)::after {
-  background-image: url(/assets/images/arrow.svg);
+  background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
 }
-
 .bg-yellow {
   background: #f6e300;
 }
@@ -21,10 +22,8 @@
 }
 .faq {
   font-weight: 700;
-  font-size: var(--fs-xxl);
 }
 .accordian-text {
-  font-size: var(--fs-lg);
   font-weight: 600;
 }
 .accordian-pera {
@@ -60,7 +59,7 @@
   color: transparent;
 }
 .a-btn::after {
-  background-image: url(/assets/images/arrow.svg) !important;
+  background-image: url("/assets/images/down-arrow-5-svgrepo-com.png") !important;
 }
 .bg-blur {
   background: linear-gradient(
@@ -106,7 +105,7 @@
   min-height: 93px;
 }
 .a-3-btn::after {
-  background-image: url(/assets/images/accordian-3-btn.svg) !important;
+  background-image: url(/assets/images/chevron-down-svgrepo-com.svg) !important;
 }
 .top {
   top: -1px !important;
