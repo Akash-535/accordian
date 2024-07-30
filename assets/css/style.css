@@ -5,6 +5,13 @@
 }
 
 /*=======accordian-1=============*/
+.sec-a-btn:not(.collapsed) {
+  color: #f6e300 !important;
+  background: black !important;
+}
+.sec-a-btn:not(.collapsed)::after {
+  background-image: url(/assets/images/arrow.svg);
+}
 
 .bg-yellow {
   background: #f6e300;
