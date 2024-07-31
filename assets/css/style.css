@@ -8,8 +8,11 @@
 .sec-a-btn:not(.collapsed) {
   color: #171717 !important;
 }
+
 .sec-a-btn::after {
   background-image: url(https://cdn.icon-icons.com/icons2/834/PNG/512/plus_icon-icons.com_66718.png) !important;
+  transform: rotateX("180deg") !important;
+  transition: all 300ms linear !important;
 }
 .sec-a-btn:not(.collapsed)::after {
   background-image: url(https://cdn-icons-png.flaticon.com/128/15797/15797654.png) !important;
@@ -42,6 +45,7 @@
 .faq {
   padding: 20px;
 }
+
 .accordian-2-bg {
   background-image: url(/assets/images/accordian-2-bg-img.png);
   background-repeat: no-repeat;
@@ -59,14 +63,14 @@
   color: transparent;
 }
 .a-btn::after {
-  background-image: url("/assets/images/down-arrow-5-svgrepo-com.png") !important;
+  background-image: url("/assets/images/chevron-down-arrow-svgrepo-com.svg") !important;
 }
 .bg-blur {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.03) 100%
-  );
+  ) !important;
 }
 .accordian-btn {
   color: white;
@@ -77,12 +81,19 @@
   font-size: 18px;
 }
 .a-btn:not(.collapsed) {
-  background-color: #171717 !important;
   color: white !important;
+}
+.a-btn:not(.collapsed) {
+  -webkit-text-stroke: 1px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .a-item {
   color: #b7b8b8 !important;
+}
+.active:active {
+  font-size: 900 !important;
+  font-size: 60px !important;
 }
 
 /*==================accordian-3=====================*/
@@ -96,6 +107,10 @@
   border-top-left-radius: 50px !important;
   border-bottom-right-radius: 40px !important;
 }
+.border-accordian:active {
+  box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1) !important;
+}
+
 .font-Audiowide {
   font-family: "Audiowide", sans-serif;
   font-size: 64px;
@@ -117,4 +132,7 @@
 }
 .font-monstret {
   font-family: "Montserrat", sans-serif;
+}
+.accordian p span:active {
+  font-weight: 900;
 }
