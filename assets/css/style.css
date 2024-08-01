@@ -85,12 +85,14 @@
 .a-btn {
   font-family: "Montserrat", sans-serif;
 }
-.a-btn:not(.collapsed) {
+.a-btn:not(.collapsed) p {
   color: white !important;
+  font-weight: 500 !important;
 }
 .a-btn:not(.collapsed) span {
   color: white !important;
   font-family: "poppins", sans-serif !important;
+  -webkit-text-stroke: 1px;
 }
 
 .a-item {
