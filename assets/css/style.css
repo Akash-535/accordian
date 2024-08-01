@@ -107,9 +107,6 @@
   border-top-left-radius: 50px !important;
   border-bottom-right-radius: 40px !important;
 }
-.border-accordian:active {
-  box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1) !important;
-}
 
 .font-Audiowide {
   font-family: "Audiowide", sans-serif;
@@ -133,6 +130,12 @@
 .font-monstret {
   font-family: "Montserrat", sans-serif;
 }
-.accordian p span:active {
-  font-weight: 900;
+.border-shadow {
+  -webkit-box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1) !important;
+  -moz-box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1) !important;
+  box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1) !important;
+}
+
+.border-shadow:has(.accordion-header > .accordion-button.collapsed) {
+  box-shadow: unset !important;
 }
