@@ -101,3 +101,13 @@ $(".sliderboxs").slick({
         }
     ]
 });
+
+$('.slider-boxthree').slick({
+    dots: true,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    centerMode: true,
+    variableWidth: true
+  });
+                  
