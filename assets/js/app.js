@@ -55,8 +55,10 @@ $(".sliderboxs").slick({
     dots: true,
     infinite: true,
     speed: 300,
+    centerMode: true,
+    centerPadding: '60px',
  
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
